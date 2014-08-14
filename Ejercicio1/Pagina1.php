@@ -2,7 +2,7 @@
     <head> Prueba de operaciones </head>
     <form method="post" action="pagina2.php">
         <body> 
-            <input type="checkbox" name="seleccion">
+            <input type="combobox" name="seleccion">
             
         
         
