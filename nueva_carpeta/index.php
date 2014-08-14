@@ -2,7 +2,7 @@
 
 
 $array = array();
-
+echo $array;
 
 ?>
 
