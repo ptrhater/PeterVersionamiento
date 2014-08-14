@@ -1,9 +1,6 @@
-<?php
-$array = array ;
+<?php  
 
-
-
-array(
+$array = array(
     
     1 => Suma,
     2 => Resta,
@@ -12,17 +9,11 @@ array(
     5 => Nada
     
     );
+
     foreach ( $array as $key => $value)
     {
-        //$_REQUEST['$array'];
-      
-    }
-        
-        
-        
-
-    
-    
-
-
+        echo "<selected $_REQUEST['seleccion']";
+     }
+     
+     
 ?>
