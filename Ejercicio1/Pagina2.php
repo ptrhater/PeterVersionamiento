@@ -12,7 +12,7 @@ $array = array(
 
     foreach ( $array as $key => $value)
     {
-        echo "<selected $_REQUEST['seleccion']";
+        echo "hola"
      }
      
      
