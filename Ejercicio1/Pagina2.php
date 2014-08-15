@@ -1,19 +1,16 @@
 <?php  
 
-$array = array(
-    
+$a = array(    
     1 => Suma,
     2 => Resta,
     3 => Multiplicacion,
-    4 => Division,
-    5 => Nada
-    
-    );
+    4 => Division
+   );
 
-    foreach ( $array as $key => $value)
+foreach ( $a as $key => $value)
     {
-        echo "hola"
-     }
-     
-     
+    echo "<select type='combobox' from ='$a'>" .$value. "</select>";
+}
+
+
 ?>
